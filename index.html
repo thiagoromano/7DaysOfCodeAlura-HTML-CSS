@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>OptimusTech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="image/worldwide 1 (Traced).svg" type="image/x-icon">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend:{
+                    colors: {
+                        cor: {
+                            principal: '#8E2424',
+                            texto: '#667085',
+                            titulo: '#3A404E',
+                            subtitulo: '#101828',
+                        },
+                    },
+                    fontFamily:{
+                        inter: ['Inter', 'sans-serif']
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-inter mx-24">
+    <nav class="flex flex-row justify-between items-center pt-8">
+        <div class="flex flex-row items-center gap-4">
+            <img src="image/worldwide 1 (Traced).svg" alt="Logo da Optimus Tech">
+            <p class="text-cor-titulo">OptimusTech</h1>
+        </div>
+        <ul class="flex flex-row gap-16 items-center">
+            <li class="" ><a class="text-cor-texto hover:opacity-70 duration-300" href="/index.html">Home</a></li>
+            <li class="" ><a class="text-cor-texto hover:opacity-70 duration-300" href="#">Produtos</a></li>
+            <li class="" ><a class="text-cor-texto hover:opacity-70 duration-300" href="#">Recursos</a></li>
+            <li class="" ><a class="text-cor-texto hover:opacity-70 duration-300" href="#">Sobre nós</a></li>
+        </ul>
+        <div class="w-1/12">
+            <!-- ESPAÇO EM BRANCO -->
+        </div>
+
+        <div class="flex flex-row gap-8 items-center">
+            <a class="text-cor-texto hover:opacity-70 duration-300" href="#">Entrar</a>
+            <a href="#"><button id="signup" type="button" class="bg-cor-principal text-white py-2.5 px-[18px] rounded-lg hover:opacity-70 duration-300">Cadastrar</button></a>
+        </div>
+    </nav>
+
+    <section class="flex flex-col items-center my-24">
+        <span class="text-cor-principal font-semibold text-base">Sobre nós</span>
+        <h1 class="font-bold text-[40px] my-6">Por que somos diferentes?</h1>
+        <p class="w-[792px] text-cor-texto text-center text-xl leading-8">
+            Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as empresas de todo o mundo a se concentrarem naquilo que é realmente importante para elas.
+        </p>
+    </section>
+
+    <section class="flex flex-row justify-between gap-6 items-center mb-24">
+        <div class="w-1/4 flex flex-col flex-wrap">
+            <h1 class="text-cor-principal text-6xl font-semibold">400+</h1>
+            <h4 class="font-semibold text-cor-subtitulo text-lg">Projetos concluídos</h4>
+            <p class="text-cor-texto text-base">Nós ajudamos a construir mais de 400 projetos incríveis.</p>
+        </div>
+    
+        <div class="w-1/4 flex flex-col flex-wrap">
+            <h1 class="text-cor-principal text-6xl font-semibold">100+</h1>
+            <h4 class="font-semibold text-cor-subtitulo text-lg">Colaboradores</h4>
+            <p class="text-cor-texto text-base">Temos mais de 100 colaboradores no nosso time que se preocupam com nossos clientes.</p>
+        </div>
+    
+        <div class="w-1/4 flex flex-col flex-wrap">
+            <h1 class="text-cor-principal text-6xl font-semibold">20k</h1>
+            <h4 class="font-semibold text-cor-subtitulo text-lg">Downloads</h4>
+            <p class="text-cor-texto text-base">Nossos projetos que estão disponíveis em lojas já foram baixados mais de 20.000 vezes.</p>
+        </div>
+    
+        <div class="w-1/4 flex flex-col flex-wrap">
+            <h1 class="text-cor-principal text-6xl font-semibold">500+</h1>
+            <h4 class="font-semibold text-cor-subtitulo text-lg">Reviews 5 estrelas</h4>
+            <p class="text-cor-texto text-base">Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em nossos produtos.</p>
+        </div>
+    </section>
+
+    <main class="pt-24">
+        <section class="text-center flex flex-col">
+            <h6 class="self-center text-cor-principal text-sm font-medium bg-cor-principal bg-opacity-5 rounded-full w-fit py-2 px-4">Vagas abertas!</h6>
+            <h2 class="text-3xl font-semibold mt-4 mb-5">Estamos procurando por talentos</h2>
+            <p class="text-cor-texto text-xl text-normal">Somos uma equipe 100% remota com pessoas do Brasil inteiro.</p>
+            <img src="image/reuniao.svg" class="px-8 my-16">
+        </section>
+    </main>
+</body>
+</html>
